@@ -285,6 +285,8 @@ void autonomous( void ) {
   VariableReset(); //Resets all values so the next function can run (just in case!!)
   MotorExample.stop(brakeType::brake);  //sets to motor to 0 to stop it
   MoveToPos(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0); //Example: X, Y, and angle = 0
+  MoveToPos(20, 20, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0); //Example: X, Y, and angle = 0
+
 }
 /*----------------------------------------------------------------------------*/
 /*                              User Control Task                             */
