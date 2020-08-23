@@ -92,17 +92,6 @@ void TrackPOS() {
     PreviousL = currentL;
     PreviousR = currentR;
     DeltaTheta = 0;
-
-    //This is for printing to the brain for debugging
-    Brain.Screen.printAt(100,20, "X: %f",X);
-    Brain.Screen.printAt(100,40, "Y: %f",Y);
-    Brain.Screen.printAt(100,60, "Theta: %f",Theta);
-    Brain.Screen.printAt(100,80, "Angle: %f",OdomHeading);
-    Brain.Screen.printAt(100,100, "Displacement1: %f",SideChord);
-    Brain.Screen.printAt(100,120, "DeltaLeftInches: %f",DeltaL);
-    Brain.Screen.printAt(100,140, "DeltaRightInches: %f",DeltaR);
-    Brain.Screen.printAt(100,160, "DeltaX: %f",DeltaXSide);
-    Brain.Screen.printAt(100,180, "DeltaY: %f",DeltaYSide);
 }
 
 //PID #1 - X Displacement PID//////////////////////////////////////////////////////////////////////////////////
@@ -293,14 +282,12 @@ void autonomous( void ) {
 /*----------------------------------------------------------------------------*/
 void usercontrol( void ) {
   while (1){
-    Brain.Screen.clearScreen(); //clears the screen to continuously display the odometry info
     //provides power to the motors to allow for movement of robot for testing using controller
     LeftBack.spin(vex::directionType::fwd, ((Controller1.Axis3.value()) + (Controller1.Axis4.value()) - (Controller1.Axis1.value())), vex::velocityUnits::pct);
     LeftFront.spin(vex::directionType::fwd, ((Controller1.Axis3.value()) + (Controller1.Axis4.value()) + (Controller1.Axis1.value())), vex::velocityUnits::pct);
     RightBack.spin(vex::directionType::fwd, ((Controller1.Axis3.value()) - (Controller1.Axis4.value()) + (Controller1.Axis1.value())), vex::velocityUnits::pct);
     RightFront.spin(vex::directionType::fwd, ((Controller1.Axis3.value()) - (Controller1.Axis4.value()) - (Controller1.Axis1.value())), vex::velocityUnits::pct);
     TrackPOS(); //Calls the TrackPosition function
-    Brain.Screen.render(); //push data to the LCD all at once to prevent image flickering
     vex::task::sleep(10); //Slight delay so the Brain doesn't overprocess
   }
 }
