@@ -8,7 +8,7 @@ This repository represents the team 211Z from Sir Winston Churchill Secondary Sc
 * [Dependencies](#dependencies)
 * [Installation](#installation)
 * [Issues](#issues)
-* [Features](#features)
+* [Current Features](#current-features)
 * [Contributors](#contributors)
 * [Contact](#contact)
 
@@ -29,13 +29,13 @@ This repository represents the team 211Z from Sir Winston Churchill Secondary Sc
 
 ## Issues
 **Open:**
-1. [Implement Autonomous Selector](https://github.com/sagarpatel211/ChangeUp_211Z_Code/issues/1)
-3. [Program Values Tuned](https://github.com/sagarpatel211/ChangeUp_211Z_Code/issues/3)
-4. [Updated Autonomous and Driver Control](https://github.com/sagarpatel211/ChangeUp_211Z_Code/issues/4)
-5.[Develop Reset Function for Odometry](https://github.com/sagarpatel211/ChangeUp_211Z_Code/issues/5)
+* [Implement Autonomous Selector](https://github.com/sagarpatel211/ChangeUp_211Z_Code/issues/1)
+* [Program Values Tuned](https://github.com/sagarpatel211/ChangeUp_211Z_Code/issues/3)
+* [Updated Autonomous and Driver Control](https://github.com/sagarpatel211/ChangeUp_211Z_Code/issues/4)
+* [Develop Reset Function for Odometry](https://github.com/sagarpatel211/ChangeUp_211Z_Code/issues/5)
 
 **Closed:**
-2. [Update Readme.md](https://github.com/sagarpatel211/ChangeUp_211Z_Code/issues/2)
+* 1. [Update Readme.md](https://github.com/sagarpatel211/ChangeUp_211Z_Code/issues/2)
 
 
 ## Current Features
