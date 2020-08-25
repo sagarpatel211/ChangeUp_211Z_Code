@@ -35,7 +35,7 @@ This repository represents the team 211Z from Sir Winston Churchill Secondary Sc
 * [Develop Reset Function for Odometry](https://github.com/sagarpatel211/ChangeUp_211Z_Code/issues/5)
 
 **Closed:**
-* 1. [Update Readme.md](https://github.com/sagarpatel211/ChangeUp_211Z_Code/issues/2)
+* [Update Readme.md](https://github.com/sagarpatel211/ChangeUp_211Z_Code/issues/2)
 
 
 ## Current Features
