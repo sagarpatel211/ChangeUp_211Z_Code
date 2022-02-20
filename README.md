@@ -53,4 +53,4 @@ This repository represents the team 211Z from Sir Winston Churchill Secondary Sc
 
 
 ## Contact
-[Email](mailto:patelsag@students.dsbn.org) | [Website](https://sagarpatel211.github.io/)
+[Email](mailto:sa24pate@uwaterloo.ca) | [Website](https://sagarpatel211.github.io/)
